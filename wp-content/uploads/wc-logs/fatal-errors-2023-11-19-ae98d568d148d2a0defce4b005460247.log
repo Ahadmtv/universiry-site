@@ -1,0 +1,14 @@
+2023-11-19T06:00:58+00:00 CRITICAL syntax error, unexpected token "," در C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php روی خط 104
+
+2023-11-19T06:01:11+00:00 CRITICAL syntax error, unexpected identifier "get_footer" در C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php روی خط 106
+
+2023-11-19T06:27:32+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\page-shop.php:2
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\page-shop.php روی خط 2
+
+2023-11-19T07:19:19+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\page-shop.php روی خط 2
+

@@ -1,0 +1,10 @@
+2023-11-21T07:41:50+00:00 CRITICAL Unclosed '{' on line 4 در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 53
+
+2023-11-21T17:47:41+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php:19
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 19
+

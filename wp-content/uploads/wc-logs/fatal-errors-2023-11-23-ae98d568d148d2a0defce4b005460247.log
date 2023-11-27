@@ -1,0 +1,734 @@
+2023-11-23T19:27:42+00:00 CRITICAL Cannot redeclare uniAdd() (previously declared in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php:9) در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php روی خط 9
+
+2023-11-23T19:28:41+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(19): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:31:10+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(21): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:34:48+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(21): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:35:39+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(21): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:39:53+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:50:33+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:52:02+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:53:02+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:56:57+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(25): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:58:48+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:58:59+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T19:59:15+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:00:44+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:05:02+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:05:32+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:09:06+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:11:18+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:12:54+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/inf', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/inf')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:31:04+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:40:00+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:51:21+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:51:24+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:52:20+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:57:56+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T20:58:37+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:00:01+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:00:37+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php:42
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php(42): array_push(NULL, Array)
+#1 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): uniAdd(Object(WP_REST_Request))
+#2 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/university/v1/...', Array, NULL)
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/university/v1/...')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#10 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#11 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#12 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#13 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php روی خط 42
+
+2023-11-23T21:01:47+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(24): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:02:17+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(24): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:02:52+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php(52): array_push(NULL, Array)
+#1 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): uniAdd(Object(WP_REST_Request))
+#2 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/university/v1/...', Array, NULL)
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/university/v1/...')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#10 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#11 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#12 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#13 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php روی خط 52
+
+2023-11-23T21:03:17+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php(52): array_push(NULL, Array)
+#1 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): uniAdd(Object(WP_REST_Request))
+#2 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/university/v1/...', Array, NULL)
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/university/v1/...')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#10 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#11 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#12 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#13 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php روی خط 52
+
+2023-11-23T21:03:59+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php(52): array_push(NULL, Array)
+#1 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): uniAdd(Object(WP_REST_Request))
+#2 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/university/v1/...', Array, NULL)
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/university/v1/...')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#10 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#11 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#12 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#13 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\search-route.php روی خط 52
+
+2023-11-23T21:06:57+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:07:50+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(26): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:10:40+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:11:56+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+
+2023-11-23T21:13:11+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\wamp64\www\wordpress\wp-includes\class-wp-query.php:3662
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-query.php(3662): array_filter(NULL, 'is_numeric')
+#1 C:\wamp64\www\wordpress\wp-includes\query.php(1005): WP_Query->the_post()
+#2 C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\inc\shopSearch-route.php(23): the_post()
+#3 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1193): shopAdd(Object(WP_REST_Request))
+#4 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/myshop/v1/info', Array, NULL)
+#5 C:\wamp64\www\wordpress\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\wamp64\www\wordpress\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/myshop/v1/info')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\wamp64\www\wordpress\wp-includes\functions.php(1336): WP->main('')
+#13 C:\wamp64\www\wordpress\wp-blog-header.php(16): wp()
+#14 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#15 {main}
+  thrown در C:\wamp64\www\wordpress\wp-includes\class-wp-query.php روی خط 3662
+

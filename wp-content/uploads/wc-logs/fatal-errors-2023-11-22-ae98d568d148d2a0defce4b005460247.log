@@ -1,0 +1,44 @@
+2023-11-22T08:36:10+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_category() in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php:51
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 51
+
+2023-11-22T08:36:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_category() in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php:51
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 51
+
+2023-11-22T11:10:44+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 163
+
+2023-11-22T11:11:40+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 164
+
+2023-11-22T12:09:30+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php:31
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 31
+
+2023-11-22T12:10:31+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php:31
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 31
+
+2023-11-22T12:12:38+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::the_content() in C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php:125
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown در C:\wamp64\www\wordpress\wp-content\themes\guilan-uni\single-product.php روی خط 125
+

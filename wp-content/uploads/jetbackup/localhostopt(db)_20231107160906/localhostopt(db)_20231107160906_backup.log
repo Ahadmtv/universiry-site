@@ -1,0 +1,119 @@
+Date: 2023-11-07 16:09:00 UTC
+Reloads: ON
+User mode: Free
+JetBackup version: 2.0.8.7
+Supported archive version: 5
+Database prefix: wp_
+Site URL: http://localhost/wordpress
+Home URL: http://localhost/wordpress
+Uploads path: C:\wamp64\www\wordpress/wp-content/uploads
+Site installation: standard
+OS: WINNT
+PHP version: 8.0.26
+MySQL version: 8.0.31
+Int size: 8
+Int lib: gmp
+Memory limit: 128M
+Max execution time: 120
+Disk free space: 156.3GB
+CURL available: Yes
+Openssl version: OpenSSL 1.1.1s  1 Nov 2022
+CURL version: 7.76.1 / SSL: OpenSSL/1.1.1s / libz: 1.2.12
+Email notifications: OFF
+FTP passive mode: OFF
+Exclude paths: 
+Tables to exclude: 
+Number of rows to backup: 10000
+AJAX request frequency: 
+Environment: Wordpress 6.3.2
+Backup mode: Manual 
+Backup type: database
+
+2023-11-07 16:09:06 Start backup 
+ 2023-11-07 16:09:06 Start backup database 
+ 2023-11-07 16:09:06 Total tables to backup 16 
+ 2023-11-07 16:09:06 Total rows to backup 1578 
+ 2023-11-07 16:09:06 Start backup table wp_options 
+ 2023-11-07 16:09:06 End backup table wp_options 
+ 2023-11-07 16:09:06 Start backup table wp_commentmeta 
+ 2023-11-07 16:09:06 End backup table wp_commentmeta 
+ 2023-11-07 16:09:06 Start backup table wp_comments 
+ 2023-11-07 16:09:06 End backup table wp_comments 
+ 2023-11-07 16:09:06 Start backup table wp_duplicator_packages 
+ 2023-11-07 16:09:06 End backup table wp_duplicator_packages 
+ 2023-11-07 16:09:06 Start backup table wp_ewwwio_images 
+ 2023-11-07 16:09:06 End backup table wp_ewwwio_images 
+ 2023-11-07 16:09:06 Start backup table wp_ewwwio_queue 
+ 2023-11-07 16:09:06 End backup table wp_ewwwio_queue 
+ 2023-11-07 16:09:06 Start backup table wp_links 
+ 2023-11-07 16:09:06 End backup table wp_links 
+ 2023-11-07 16:09:06 Start backup table wp_postmeta 
+ 2023-11-07 16:09:06 End backup table wp_postmeta 
+ 2023-11-07 16:09:06 Start backup table wp_posts 
+ 2023-11-07 16:09:06 End backup table wp_posts 
+ 2023-11-07 16:09:06 Exclude table wp_sg_action 
+ 2023-11-07 16:09:06 Exclude table wp_sg_config 
+ 2023-11-07 16:09:06 Exclude table wp_sg_schedule 
+ 2023-11-07 16:09:06 Start backup table wp_term_relationships 
+ 2023-11-07 16:09:06 End backup table wp_term_relationships 
+ 2023-11-07 16:09:06 Start backup table wp_term_taxonomy 
+ 2023-11-07 16:09:06 End backup table wp_term_taxonomy 
+ 2023-11-07 16:09:06 Start backup table wp_termmeta 
+ 2023-11-07 16:09:06 End backup table wp_termmeta 
+ 2023-11-07 16:09:06 Start backup table wp_terms 
+ 2023-11-07 16:09:06 End backup table wp_terms 
+ 2023-11-07 16:09:06 Start backup table wp_usermeta 
+ 2023-11-07 16:09:06 End backup table wp_usermeta 
+ 2023-11-07 16:09:06 Start backup table wp_users 
+ 2023-11-07 16:09:06 End backup table wp_users 
+ 2023-11-07 16:09:06 Start backup table wp_wpie_template 
+ 2023-11-07 16:09:06 End backup table wp_wpie_template 
+ 2023-11-07 16:09:06 End backup database 
+ 2023-11-07 16:09:06 Backup database total duration 0 seconds 
+ 2023-11-07 16:09:06 Inside ->backup() | action type: 1 
+ 2023-11-07 16:09:06 Generating Tree... 
+ 2023-11-07 16:09:10 Root path C:\wamp64\www\wordpress/wp-content/uploads/jetbackup/localhostopt(db)_20231107160906/localhostopt(db)_20231107160906.sgbp 
+ 2023-11-07 16:09:10 Number of files to backup 0 
+ 2023-11-07 16:09:10 Start backup 1 files  
+ 2023-11-07 16:09:10 Open archive (mode: ab) 
+ 2023-11-07 16:09:10 Open CDR file 
+ 2023-11-07 16:09:10 Treelines 1 
+ 2023-11-07 16:09:10 offset string 0 
+ 2023-11-07 16:09:10 Tree Lines:  0 
+ 2023-11-07 16:09:10 Start add file wp-content/uploads/jetbackup/localhostopt(db)_20231107160906/localhostopt(db)_20231107160906.sql 
+ 2023-11-07 16:09:10 Parent Iteration: 0 
+ 2023-11-07 16:09:10 File size: 554775 
+ 2023-11-07 16:09:10 File offset in archive: 0 
+ 2023-11-07 16:09:10 Start add header 
+ 2023-11-07 16:09:10 End add header: 4 bytes 
+ 2023-11-07 16:09:10 Start add file chunk 
+ 2023-11-07 16:09:10 Read: 554775 bytes 
+ 2023-11-07 16:09:11 Compressed: 78691 bytes 
+ 2023-11-07 16:09:11 Written: 78691 bytes 
+ 2023-11-07 16:09:11 End add file chunk: Start(0) - Size(78691) 
+ 2023-11-07 16:09:11 Next chunk offset: 78691 
+ 2023-11-07 16:09:11 Start write CDR item 
+ 2023-11-07 16:09:11 CRC: Not supported 
+ 2023-11-07 16:09:11 Filename length: 96 
+ 2023-11-07 16:09:11 Filename: wp-content/uploads/jetbackup/localhostopt(db)_20231107160906/localhostopt(db)_20231107160906.sql 
+ 2023-11-07 16:09:11 Offset: 0 
+ 2023-11-07 16:09:11 Compressed length: 78691 
+ 2023-11-07 16:09:11 Uncompressed length: 554775 
+ 2023-11-07 16:09:11 Number of chunks: 1 
+ 2023-11-07 16:09:11 Chunk: Start(0) - Size(78691) 
+ 2023-11-07 16:09:11 End write CDR item: 146 bytes 
+ 2023-11-07 16:09:11 Next file offset in archive will be: 78695 
+ 2023-11-07 16:09:11 End add file C:\wamp64\www\wordpress/wp-content/uploads/jetbackup/localhostopt(db)_20231107160906/localhostopt(db)_20231107160906.sqlwp-content/uploads/jetbackup/localhostopt(db)_20231107160906/localhostopt(db)_20231107160906.sql 
+ 2023-11-07 16:09:11 Tree Lines:  1 
+ 2023-11-07 16:09:11 Finalized 
+ 2023-11-07 16:09:11 Close CDR file 
+ 2023-11-07 16:09:11 Close archive 
+ 2023-11-07 16:09:11 offset: 2 Files Count: 0 
+ 2023-11-07 16:09:11 End backup files 
+ 2023-11-07 16:09:11 Backup completed 
+ 2023-11-07 16:09:11 Total duration 5 seconds 
+ 2023-11-07 16:09:11 Memory peak usage 24MB 
+ 2023-11-07 16:09:11 Archive size 79.4KB (79420 bytes) 
+ 2023-11-07 16:09:11 Close CDR file 
+ 2023-11-07 16:09:11 Close archive 
+ 
